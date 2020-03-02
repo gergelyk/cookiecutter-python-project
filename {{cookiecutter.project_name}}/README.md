@@ -30,7 +30,7 @@ poetry install
 ### Running Application
 
 ```sh
-poetry run python foobar/hello.py
+poetry run python {{cookiecutter.author_full_name}}/hello.py
 ```
 
 ### Rendering Documentation
@@ -48,9 +48,9 @@ poetry run pytest
 ### Bumping Version
 
 ```sh
-poetry version        # check current version
 poetry version minor  # increment selected component
-poetry version 1.2.3  # provide version explicitely
+git tag ${$(poetry version)[2]}
+git push --tags
 ```
 
 ### Building Package
@@ -59,7 +59,7 @@ poetry version 1.2.3  # provide version explicitely
 poetry build
 ```
 
-### Compatibility with setuptools
+### Compatibility with `setuptools`
 
 Looking for `setup.py`? Try using `poetry`, or if you really need `setup.py`, invoke:
 
