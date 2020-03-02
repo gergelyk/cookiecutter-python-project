@@ -30,7 +30,7 @@ poetry install
 ### Running Application
 
 ```sh
-poetry run python {{cookiecutter.author_full_name}}/hello.py
+poetry run python {{cookiecutter.project_name}}/hello.py
 ```
 
 ### Rendering Documentation
