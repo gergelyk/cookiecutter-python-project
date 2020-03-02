@@ -1,6 +1,6 @@
-# foobar
+# {{cookiecutter.project_name}}
 
-Sample project.
+{{cookiecutter.project_description}}
 
 ## Installation
 
