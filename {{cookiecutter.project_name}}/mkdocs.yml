@@ -1,0 +1,14 @@
+site_name: {{cookiecutter.project_name}}
+
+theme:
+  name: "material"
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - mkdocstrings
