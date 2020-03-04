@@ -9,6 +9,7 @@ class HelloWorld:
         Arguments:
             name: sample argument
         """
+        # docstring format: https://github.com/pawamoy/mkdocstrings#docstrings-format
         print(f"Hello {name}!")
 
 if __name__ == "__main__":
