@@ -9,7 +9,7 @@ Template of a Python project.
   - [`material`](https://squidfunk.github.io/mkdocs-material/) theme.
   - API generation with [`mkdocstrings`](https://pawamoy.github.io/mkdocstrings/).
   - [`mermaid`](https://mermaidjs.github.io/#/) for beautiful diagrams.
-  - [`pymdown-extensions`](]https://facelessuser.github.io/pymdown-extensions/) and more.
+  - [`pymdown-extensions`](https://facelessuser.github.io/pymdown-extensions/) and more.
 
 ## Usage
 
