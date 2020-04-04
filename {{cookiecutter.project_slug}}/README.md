@@ -5,8 +5,8 @@
 * Documentation: <{{cookiecutter.docs_page_url}}>
 * Repository: <{{cookiecutter.repo_url}}>
 * Package: <{{cookiecutter.package_url}}>
-* Author: <mailto:{{cookiecutter.author_email}}>
-& License: [MIT](LICENSE)
+* Author: [{{cookiecutter.author_email}}](mailto:{{cookiecutter.author_email}})
+* License: [MIT](LICENSE)
 
 ## Requirements
 
@@ -60,3 +60,9 @@ poetry publish
 poetry run mkdocs build
 poetry run mkdocs gh-deploy -b gh-pages
 ```
+
+## Donations
+
+If you find this software useful and you would like to repay author's efforts you are welcome to use following button:
+
+[![Donate](https://www.paypalobjects.com/en_US/PL/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D9KUJD9LTKJY8&source=url)
