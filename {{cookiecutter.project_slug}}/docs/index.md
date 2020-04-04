@@ -2,10 +2,4 @@
 
 {{cookiecutter.project_description}}
 
-Note:
-
-    Have fun!
-
-::: {{cookiecutter.project_name}}.hello
-
-
+Five random numbers: {{ "{{ random_digits(5) }}" }}

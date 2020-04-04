@@ -1,17 +1,28 @@
 [tool.poetry]
-name = "{{cookiecutter.project_name}}"
+name = "{{cookiecutter.package_name}}"
 version = "0.1.0"
 description = "{{cookiecutter.project_description}}"
 authors = ["{{cookiecutter.author_full_name}} <{{cookiecutter.author_email}}>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
-mkdocs = "^1.0.4"
+mkdocs = "1.0.4"
 mkdocstrings = "^0.7.0"
 mkdocs-material = "^4.6.0"
 pytest = "^5.3.5"
+bs4 = "^0.0.1"
+mkdocs-plugin-mermaid = "^0.1.1"
+mdx_include = "^1.3.3"
+mkdocs-htmlproofer-plugin = "^0.0.3"
+mkdocs-plugin-progress = "^1.1.4"
+mkdocs-macros-plugin = "^0.4.4"
+flake8 = "^3.7.9"
+mypy = "^0.770"
+pytest-cov = "^2.8.1"
+pytest-html = "^2.1.1"
+lxml = "^4.5.0"
 
 [build-system]
 requires = ["poetry>=0.12"]

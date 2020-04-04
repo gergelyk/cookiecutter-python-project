@@ -1,6 +1,14 @@
 {
-  "project_name": "foobar",
+  "project_name": "Foo Bar",
+  "package_name": "{{ cookiecutter.project_name.replace(' ', '-').lower() }}",
+  "module_name": "{{ cookiecutter.package_name.replace('-', '_') }}",
+  "project_slug": "{{ 'python-' + cookiecutter.package_name }}",
   "project_description": "Sample project.",
-  "author_full_name": "Grzegorz Krason",
-  "author_email": "grzegorz.krason@gmail.com"
+  "author_full_name": "Grzegorz Krasoń",
+  "author_email": "grzegorz.krason@gmail.com",
+  "repo_url": "https://github.com/gergelyk/{{cookiecutter.project_slug}}",
+  "package_url": "https://pypi.python.org/pypi/{{cookiecutter.package_name}}",
+  "docs_page_url": "https://gergelyk.github.io/homepage/{{cookiecutter.project_slug}}",
+  "year": "{% now 'utc', '%Y' %}",
+  "_extensions": ["jinja2_time.TimeExtension"]
 }

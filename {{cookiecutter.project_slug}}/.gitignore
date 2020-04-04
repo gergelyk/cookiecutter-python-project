@@ -1,0 +1,18 @@
+# cpython
+__pycache__
+*.egg-info
+*.pyc
+
+# poetry
+.venv
+dist/
+
+# mypy
+.mypy_cache/
+
+# mkdocs
+site/
+
+# pytest-cov
+htmlcov/
+.coverage
