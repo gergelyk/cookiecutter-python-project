@@ -16,7 +16,6 @@ theme:
 # Appears in the title bar
 repo_name: {{cookiecutter.project_slug}}
 repo_url: {{cookiecutter.repo_url}}
-edit_uri: "tree/master/docs"
 
 extra:
   # Appears in the footer bar
