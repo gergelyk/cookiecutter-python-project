@@ -25,7 +25,7 @@ extra:
     - type: envelope-o
       link: mailto:{{cookiecutter.author_email}}
 
-copyright: "Copyright &copy; {{cookiecutter.author_full_name}}"
+copyright: "Copyright &copy; {{cookiecutter.year}} {{cookiecutter.author_full_name}}"
 
 markdown_extensions:
   - abbr
