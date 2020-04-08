@@ -52,7 +52,7 @@ poetry run radon cc {{cookiecutter.module_name}} tests
 poetry run radon mi {{cookiecutter.module_name}} tests
 
 # Testing with coverage
-poetry run pytest --cov indentedlogs --cov tests
+poetry run pytest --cov {{cookiecutter.module_name}} --cov tests
 
 # Rendering documentation
 poetry run mkdocs serve
