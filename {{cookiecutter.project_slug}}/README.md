@@ -5,7 +5,7 @@
 * Documentation: <{{cookiecutter.docs_page_url}}>
 * Repository: <{{cookiecutter.repo_url}}>
 * Package: <{{cookiecutter.package_url}}>
-* Author: [{{cookiecutter.author_email}}](mailto:{{cookiecutter.author_email}})
+* Author: [{{cookiecutter.author_full_name}}](mailto:{{cookiecutter.author_email}})
 * License: [MIT](LICENSE)
 
 ## Requirements
