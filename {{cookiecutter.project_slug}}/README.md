@@ -45,6 +45,7 @@ poetry run yapf -r -i {{cookiecutter.module_name}} tests
 poetry run flake8 {{cookiecutter.module_name}} tests
 
 # Checking composition and quality
+poetry run vulture {{cookiecutter.module_name}} tests
 poetry run mypy {{cookiecutter.module_name}} tests
 poetry run pylint {{cookiecutter.module_name}} tests
 poetry run bandit {{cookiecutter.module_name}} tests
