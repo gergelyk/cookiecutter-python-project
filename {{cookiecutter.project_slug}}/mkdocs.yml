@@ -38,6 +38,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - meta
+  - md_in_html
   - mdx_include:
       base_path: docs
       recurs_remote: null
@@ -50,7 +51,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.escapeall
-  - pymdownx.extrarawhtml
   - pymdownx.inlinehilite
   - pymdownx.superfences:
       custom_fences:
@@ -79,6 +79,9 @@ plugins:
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.core.min.js
+
+extra_css:
+  - custom.css
 
 # Appears on the left side
 nav:
